@@ -1,0 +1,17 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: ibm-entitlement-key
+  namespace: gitops-cp-db2wh
+spec:
+  encryptedData:
+    .dockerconfigjson: AgAE7X4DDacFXgoZYD1dxi8CsmgKMdFCeo8A0VXNFDp/sPB27BshkYCrqkybin3NvGU8yoSz10MNC0hxoMij5PyC7Q3gmUbbutTt1vE0O2y2u0aqmDukr45aTV0pybFQJ450jMdo2W3LCtoVmtkNCChF7i3wRxJ6z9WTmS6+cjVjBbs5IQi/MRYUhaFV+8AXdZVPPL3sqNW1xnrVJfT1nOsjR/1dTwPKRvuKrihhS5zbqrpFn92M4e5KyDVd4+HiH1QQ5DNBpxwO5Z6ElF+cPxkI1V8FzQzcfdZ2rP4oy9r/b2tTfVW+Nfpz2+OwzRK36XZQPnbNhHQgaZHPNnJUtUPdx7uVWSEqStsikXA+O2btaBwhCk5bPIu+YuElt/urdjCyVr5Z2hlBNBXeQLvRbhrDb+hdyJX8um+jMm59nXPN9qUuyfzHaLskU2zc0JY3fCipc8zWrnWTArutANZXWSO8KI1C4YtRyOz+dwsAT1sU0zJEYUnofLxjU2aXPEvhBuR785xPHBPaYBi8VxjrAdrQZ7/8uyv1tuLODUgoisAYkL7GJBRSz3N1i1hDo9rEGuSwkLzfyNbYAisNRKTFlSOLtR6AtAxmcjxEs8oILQdYLmhY+y4dbjC9rzerYPXtcznuc0T+RZ1jAdb11eJZ3WM2jbEojvAiPGYVdW1ZzQXIA9n1Ma19NzLYgnaaFWOrYFDA11q85snIFTVRIhXE4QBdOW9mNujTEpj6HymZAceOh8NtbemuX39NboTLfzMod9r64qFWexckUF+HNM3AE6O/HZn8aTiCgMvscvNrY2e2e2Y=
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: ibm-entitlement-key
+      namespace: gitops-cp-db2wh
+    type: kubernetes.io/dockerconfigjson
+
