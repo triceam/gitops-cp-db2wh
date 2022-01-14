@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: namespace-gitops-cp-db2wh
+spec:
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  project: 1-infrastructure
+  source:
+    path: payload/1-infrastructure/namespace/gitops-cp-db2wh/namespace
+    repoURL: https://github.com/cloud-native-toolkit-test/gitops-cp-db2wh
+    targetRevision: gitops-cp-db2wh-payload
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
